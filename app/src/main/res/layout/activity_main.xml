@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tan_background"
+    tools:context="com.example.android.efiklanguage.MainActivity">
+
+    <TextView
+        android:id= "@+id/numbers"
+        style="@style/CategoryStyle"
+        android:text="Numbers"
+        android:label="Numbers"
+        android:background="@color/category_numbers"
+        />
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="@color/category_animal"
+        android:id="@+id/animal"
+        android:text="Animal"
+        android:label="Animal"
+        />
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:id="@+id/colors"
+        android:background="@color/category_colors"
+        android:text="Colors"
+        android:label="Colors"/>
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="@color/category_phrases"
+        android:id="@+id/phrases"
+        android:text="Phrases"
+        android:label="Phrases"/>
+
+
+</LinearLayout>
